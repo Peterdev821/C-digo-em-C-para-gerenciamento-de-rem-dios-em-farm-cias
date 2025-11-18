@@ -20,7 +20,7 @@ void limpar_buffer(){
     while((c = getchar()) != '\n' && c != EOF);
 }
 
-// Verifica se a string contÃ©m apenas letras e espaÃ§os
+// Verifica se a string contém apenas letras e espaÃ§os
 int somente_letras(char *str){
     for(int i = 0; str[i] != '\0'; i++){
         if(!isalpha(str[i]) && str[i] != ' '){  // Se tiver algo que nÃ£o seja letra nem espaÃ§o
